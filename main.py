@@ -1,3 +1,6 @@
+import json
+
+
 report_type = None
 period = None
 group_by = None
@@ -37,3 +40,7 @@ report_params = {
     "group_by": group_by
 }
 print(report_params)
+json_result = json.dumps(report_params, ensure_ascii=False)
+print(json_result)
+with open("report_params.json", "w", encoding="utf-8") as file:
+    file.write(json_result)

@@ -1,0 +1,6 @@
+# Служебные файлы Python
+__pycache__/
+*.pyc
+
+# Результат запуска прототипа
+report_params.json
