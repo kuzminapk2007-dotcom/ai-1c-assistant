@@ -5,6 +5,12 @@
 			<Button name="ФормаПроверитьСвязь" id="9">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.ПроверитьСвязь</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Отправить запрос</v8:content>
+					</v8:item>
+				</Title>
 				<ExtendedTooltip name="ФормаПроверитьСвязьРасширеннаяПодсказка" id="10"/>
 			</Button>
 		</ChildItems>
