@@ -11,9 +11,12 @@ def health():
     return {"status": "ok"}
 
 
-@app.get("/parse")
+@app.route("/parse", methods=["GET", "POST"])
 def parse_report():
-    text = request.args.get("text", "")
+    if request.method == "POST":
+        text = request.get_data(as_text=True)
+    else:
+        text = request.args.get("text", "")
 
     if not text.strip():
         return {"error": "Параметр text обязателен"}, 400

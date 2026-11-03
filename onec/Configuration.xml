@@ -265,6 +265,7 @@
 			<Catalog>Менеджеры</Catalog>
 			<Document>Продажа</Document>
 			<Report>ОтчетПоПродажам</Report>
+			<DataProcessor>ИИПомощник</DataProcessor>
 			<AccumulationRegister>Продажи</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>

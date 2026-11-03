@@ -11,7 +11,10 @@
 		<Metadata name="Catalog.Контрагенты" id="5d9025ed-5a28-4026-bbbd-d5851e625176" configVersion="c6277bd6d4280f4e8bc9d3aeaa90426300000000"/>
 		<Metadata name="Catalog.Менеджеры" id="11acdecd-e3fd-4dbf-8f66-face7e30e27c" configVersion="ad3313caf705c94191cc9cc1339dfd5000000000"/>
 		<Metadata name="Catalog.Товары" id="d0b79b28-7554-4eba-9585-fb3bead28aa8" configVersion="3f7469c9d222dd4698dd765810db8d0600000000"/>
-		<Metadata name="Configuration.Конфигурация" id="5dfde080-ae8e-4631-8d47-5087b3bdb5c6" configVersion="a87ffe3808acbe4ebf43282d8178321200000000"/>
+		<Metadata name="Configuration.Конфигурация" id="5dfde080-ae8e-4631-8d47-5087b3bdb5c6" configVersion="7fc46cfc43834d46aa00946ef7e402ef00000000"/>
+		<Metadata name="DataProcessor.ИИПомощник" id="eeb0785a-53a8-436c-b5ba-29f6fa6ca4aa" configVersion="d1008293eeedce4aaded52a361d9a7c600000000"/>
+		<Metadata name="DataProcessor.ИИПомощник.Form.Форма" id="facd9198-0e61-4ced-b586-ac3eaafa0f87" configVersion="2a380b51da75ac45a5891a9070390b5000000000"/>
+		<Metadata name="DataProcessor.ИИПомощник.Form.Форма.Form" id="facd9198-0e61-4ced-b586-ac3eaafa0f87.0" configVersion="ea5d9186a2e17041abed7cca68cbcf9d00000000"/>
 		<Metadata name="Document.Продажа" id="3ea1b31f-42cb-49d1-8fa4-7f9fc8fa340c" configVersion="47e5c38ffed135498d07083350db5a5400000000">
 			<Metadata name="Document.Продажа.Attribute.Менеджер" id="1f8437d0-a6c6-4aee-ae47-6c09758fa60a"/>
 			<Metadata name="Document.Продажа.Attribute.Контрагент" id="28e0951b-0312-4cc4-a572-e91ab649be74"/>
@@ -28,6 +31,6 @@
 		<Metadata name="Report.ОтчетПоПродажам" id="d730fb4c-edfb-4490-a2b3-e6d0cbc03505" configVersion="bdae601c14fec24e9bc85658344168e000000000"/>
 		<Metadata name="Report.ОтчетПоПродажам.Template.ОсновнаяСхемаКомпоновкиДанных" id="4fc51be2-282c-4018-a25c-1e9c81d1fb33" configVersion="bec7f2379951cb4ebc8fcad6cffc052700000000"/>
 		<Metadata name="Report.ОтчетПоПродажам.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="4fc51be2-282c-4018-a25c-1e9c81d1fb33.0" configVersion="03f9d748769fd747922aee213a07890b00000000"/>
-		<Metadata name="Subsystem.Продажи" id="462e7455-ef02-40d3-a10e-13d64dac66c7" configVersion="c81dea937115c34fabe53c98a9531f1e00000000"/>
+		<Metadata name="Subsystem.Продажи" id="462e7455-ef02-40d3-a10e-13d64dac66c7" configVersion="2e776703fa7d124f9984a67066d2594900000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
