@@ -13,8 +13,8 @@
 		<Metadata name="Catalog.Товары" id="d0b79b28-7554-4eba-9585-fb3bead28aa8" configVersion="3f7469c9d222dd4698dd765810db8d0600000000"/>
 		<Metadata name="Configuration.Конфигурация" id="5dfde080-ae8e-4631-8d47-5087b3bdb5c6" configVersion="7fc46cfc43834d46aa00946ef7e402ef00000000"/>
 		<Metadata name="DataProcessor.ИИПомощник" id="eeb0785a-53a8-436c-b5ba-29f6fa6ca4aa" configVersion="d1008293eeedce4aaded52a361d9a7c600000000"/>
-		<Metadata name="DataProcessor.ИИПомощник.Form.Форма" id="facd9198-0e61-4ced-b586-ac3eaafa0f87" configVersion="dae5002c1d88ba4986d1882035efb0be00000000"/>
-		<Metadata name="DataProcessor.ИИПомощник.Form.Форма.Form" id="facd9198-0e61-4ced-b586-ac3eaafa0f87.0" configVersion="6d9fa1c74e165b41a4e43e92b5bafb1a00000000"/>
+		<Metadata name="DataProcessor.ИИПомощник.Form.Форма" id="facd9198-0e61-4ced-b586-ac3eaafa0f87" configVersion="7db2e6c1f8d07940b40f0b73f46ff5dc00000000"/>
+		<Metadata name="DataProcessor.ИИПомощник.Form.Форма.Form" id="facd9198-0e61-4ced-b586-ac3eaafa0f87.0" configVersion="532023a1b0b40e46b0a95ab4184b91ce00000000"/>
 		<Metadata name="Document.Продажа" id="3ea1b31f-42cb-49d1-8fa4-7f9fc8fa340c" configVersion="47e5c38ffed135498d07083350db5a5400000000">
 			<Metadata name="Document.Продажа.Attribute.Менеджер" id="1f8437d0-a6c6-4aee-ae47-6c09758fa60a"/>
 			<Metadata name="Document.Продажа.Attribute.Контрагент" id="28e0951b-0312-4cc4-a572-e91ab649be74"/>
