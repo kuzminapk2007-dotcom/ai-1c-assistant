@@ -17,6 +17,18 @@ def detect_period(text):
     return None
 
 
+def detect_period_dates(text):
+    if "октябрь" in text:
+        return {
+            "start_date": "2026-10-01T00:00:00",
+            "end_date": "2026-10-31T23:59:59"
+        }
+    return {
+        "start_date": None,
+        "end_date": None
+    }
+
+
 def detect_group_by(text):
     if "товар" in text:
         return "товары"
@@ -27,10 +39,13 @@ def detect_group_by(text):
 
 def parse_request(text):
     normalized_text = normalize_request(text)
+    period_dates = detect_period_dates(normalized_text)
     return {
         "report_type": detect_report_type(normalized_text),
         "period": detect_period(normalized_text),
-        "group_by": detect_group_by(normalized_text)
+        "group_by": detect_group_by(normalized_text),
+        "start_date": period_dates["start_date"],
+        "end_date": period_dates["end_date"]
     }
 
 
